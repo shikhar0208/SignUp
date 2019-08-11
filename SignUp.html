@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/6750e6040b.js"></script>
+    <link rel="stylesheet" type="text/css" href="SignUp.css">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<h1 class="sign" style="text-align: center;"><i class="fas fa-globe-americas"></i> Sign up!</h1>
+	        <hr>
+	        <h1 class="account" style="text-align: center;"> Create an account</h1>
+			<div style="width: 30%; margin:25px auto; ">
+				<form action="SignUp" method="post">
+					<div id="name" class="form-group">
+						<input  type="text" name="FirstName" placeholder="First name" class="form-control firstname" required>
+					    <input type="text" name="Surname" placeholder="Surname" class="form-control surname" required>
+
+					</div>
+					<!-- <div class="form-group">
+					    <input id="surname" type="text" name="Surname" placeholder="Surname" class="form-control" required>
+					</div> -->
+					<div class="form-group">
+						<input type="number email" name="number email" placeholder="Mobile number or email address" class="form-control" required>
+					</div>
+					
+					<div class="form-group">
+						<input type="password" name="password" placeholder="New password" class="form-control" minlength="6" required title="Enter a combination of at least six numbers, letters and punctuation marks (like ! and &).">
+					</div>
+
+					<div class="form-group birthday">
+						<div class="bdayhead">Birthday</div>
+						<div>
+							<input class="form-control" type="date" name="DOB" required>
+						</div>
+					</div>
+					<div class="form-group gender">
+						<div class="genhead">Gender</div>
+						<div>
+							<input type="radio" name="Gender" value="Male" required>
+							<label for="gender"><strong>Male</strong></label>
+						  	<input type="radio" name="Gender" value="Female" required>
+						  	<label for="gender"><strong>Female</strong></label>
+						  	<input type="radio" name="Gender" value="Other" required>
+						  	<label for="gender"><strong>Other</strong></label>
+						</div>
+					</div>
+					<!-- <div>
+						<p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+					</div> -->
+					<div class="form-group">
+		 	 			<button class="btn btn-primary">Submit</button>
+		 	 	  	</div>
+
+				</form>
+
+				<div>
+					<p>Already have an account?<a href="#">Login here</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

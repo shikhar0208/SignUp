@@ -1,0 +1,53 @@
+label{
+	padding-right: 6px;
+}
+
+hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 640px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.genhead{
+	padding-bottom: 5px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #53565d;
+}
+
+.bdayhead{
+	padding-bottom: 5px;
+	font-weight: 600;
+	font-size: 16px;
+	color: #53565d;
+}
+
+#name{
+	display: inline-flex;
+}
+
+.firstname{
+	margin-right: 5px;
+}
+
+.surname{
+	margin-left: 5px;
+}
+
+.sign{
+	/*padding-left: 20px;
+	margin: 20px 30px 10px 50px;*/
+	font-size: 40px;
+	font-weight:600;
+	padding-right:20%;
+}
+
+.account{
+	padding-right:5%;
+}
+
+.fa-globe-americas{
+	color:#3886b3;
+}
